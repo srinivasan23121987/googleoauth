@@ -1,12 +1,14 @@
 # Facebook-Oauth
 
-# GIT-Credential-remove
-# start the ssh-agent in the background
+**GIT-Credential-remove**
+**start the ssh-agent in the background**
 ssh-agent -s
-# Agent pid 59566
+
+*Agent pid 59566*
+
 So, Ctrl+Alt+Del and hit End Process to stop each 'ssh-agent.exe' process.
 
-#In 'Git Bash':
+*In 'Git Bash':*
 
 Start the 'ssh-agent.exe' process
 
