@@ -1,0 +1,29 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "electron bin.js --scopes https://www.google.com/m8/feeds --clientId 703245707941-b1vergs19ujjt08109obo581i106mt8l.apps.googleusercontent.com --clientSecret AIzaSyApMU2ItxZ8p7Z655bLENE6gwWXmzGrx1s"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.7.8"
+  },
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "electron-google-oauth": "^2.0.0",
+    "electron-window-manager": "^1.0.4",
+    "remote": "^0.2.6"
+  }
+}
